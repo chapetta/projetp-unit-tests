@@ -72,7 +72,5 @@ describe('9 - Implemente os casos de teste da função `getCharacter`', () => {
     expect(getCharacter('Melissandre')).toEqual(resultMelissandre);
     expect(getCharacter('aRyA')).toEqual(resultArya)
     expect(getCharacter('Ned Stark')).toEqual(undefined)
-
-
   });
 });
